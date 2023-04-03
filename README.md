@@ -22,3 +22,12 @@ This dataset contains 18K job descriptions out of which about 800 are fake. The 
       - Hashing TF Vectorizer
       - TFIDF Vectorizer
       - WordtoVec Vectorizer
+  ### 3) Training and Evaluating
+  After preparing our data for the model, we will try different models and parameters to find the best one for classification of our label, on the 3 datasets which were encoded by different ways, the different models are:
+  - Logistic regression
+  - One Vs Rest
+  - Linear SVC
+  - Naive Bayes
+  - Multilayer Perceptron Classifier
+  
+  ### We see that Multilayer Perceptron Classifier with tfidf vectorization has the highest accuracy which is 97%.
